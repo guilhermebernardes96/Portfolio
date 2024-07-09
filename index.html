@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500&display=swap" rel="stylesheet">
+    <title>Guilherme Bernardes</title>
+</head>
+<body>
+    <div class="caixa-principal" id="home">
+        <nav>
+            <h2 class="portfolio">guilherme<span>bernardes</span></h2>
+
+            <a id="btnMenu" class="menu-mobile">
+                <img src="./img/hamburger.png" alt="Menu">
+            </a>
+            
+           
+            <ul id="menuMobile" class="nav-mobile">
+                <img class="btn-fechar" src="./img/btn-fechar.png"></img>
+                <li><a class="link-menu" href="#home">Home</a></li>
+                <li><a class="link-menu" href="#sobre">Sobre</a></li>
+                <li><a class="link-menu" href="#projetos-id">Projetos</a></li>
+                <li><a class="link-menu" href="#fale-comigo">Fale comigo</a></li>
+            </ul>
+
+            <ul class="nav-desktop">
+                <li><a class="link-menu" href="#home">Home</a></li>
+                <li><a class="link-menu" href="#sobre">Sobre</a></li>
+                <li><a class="link-menu" href="#projetos-id">Projetos</a></li>
+                <li><a class="link-menu" href="#fale-comigo">Fale comigo</a></li>
+            </ul>
+        </nav>
+
+        <div class="overlay-menu"></div>
+
+        <div class="bem-vindo">
+            <p>Prazer!</p>
+            <p>Eu sou Guilherme Bernardes.</p>
+            <p>Programador <span>Front</span> End.</p>
+        </div>
+    </div>
+    
+    <div>
+        <button id="botaoVoltarTopo" class="rolagem" onclick="voltarTopo();">
+            <img src="./img/up.png">
+        </button>
+    </div>
+
+    <section id="sobre">
+        <div>
+            <hr class="quem-sou">
+            <h2>quem sou eu?</h2>
+
+
+            <h3>Guilherme Bernardes Bastos</h3>
+            <hr>
+            <p>28 anos</p>
+            <hr>
+            <p>Desenvolvedor Front End</p>
+            <hr>
+            <p>Estudante de Desenvolvimento Full Stack na Estácio</p>
+            <hr>
+            <p>Apaixonado por tecnologia</p>
+            <hr>
+            <p>A procura de uma oportunidade para ingressar na área</p>
+            <hr>
+
+            <button><a class="link-menu" href="#fale-comigo">Entre em contato</a></button>
+        </div>
+    </section>
+
+    <div class="projetos" id="projetos-id">
+        <h2>Projetos</h2>
+
+        <div class="card-projetos">
+            <div class="card ativo">
+                <img src="./img/alarado.png" alt="Imagem do Projeto">
+                <h5>Homepage Simples</h5>
+                <p>HTML | CSS | JAVASCRIPT</p>
+                <a href="https://guilhermebernardes96.github.io/Simple-Homepage/" target="_blank">Ver Projeto</a>
+                <a href="https://github.com/guilhermebernardes96/Simple-Homepage" target="_blank">Ver Git</a>
+            </div>
+            <div class="card">
+                <img src="./img/gta.png" alt="Imagem do Projeto">
+                <h5>GTA</h5>
+                <p>HTML | CSS | JAVASCRIPT</p>
+                <a href="https://guilhermebernardes96.github.io/Projeto-GTA/" target="_blank">Ver Projeto</a>
+                <a href="https://github.com/guilhermebernardes96/Projeto-GTA" target="_blank">Ver Git</a>
+            </div>
+            <div class="card">
+                <img src="./img/todo-react.png" alt="Imagem do Projeto">
+                <h5>Lista de Tarefas</h5>
+                <p>REACT</p>
+                <a href="https://listadetarefas-git-main-guilherme-bernardes-projects.vercel.app/" target="_blank">Ver projeto</a>
+                <a href="https://github.com/guilhermebernardes96/todo-react" target="_blank">Ver Git</a>
+            </div>
+        </div>
+
+        <div class="button">
+            <button class="anterior">ANTERIOR</button>
+            <button class="proximo">PROXIMO</button>
+        </div>
+    </div>
+
+    <footer id="fale-comigo">
+        <h5>Guilherme Bernardes</h5>
+        <p>Para mais informações</p>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/guilherme-bernardes-bastos-b33447265/" target="_blank">
+                <img src="./img/linkedin.png" alt="LinkedIn">
+            </a>
+
+            <a href="https://api.whatsapp.com/send?phone=5551991742762" target="_blank">
+                <img src="./img/telefone.png" alt="Telefone">
+            </a>
+
+            <a href="https://github.com/guilhermebernardes96" target="_blank">
+                <img src="./img/github.png" alt="GitHub">
+            </a>
+        </div>
+    </footer>
+
+    <script src="./script/script.js"></script>
+</body>
+</html>
